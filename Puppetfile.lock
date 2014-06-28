@@ -1,0 +1,35 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs/stdlib (4.2.2)
+    zleslie/pkgng (0.2.1)
+      puppetlabs/stdlib (>= 0)
+
+GIT
+  remote: git://github.com/mstrauss/puppet-editfile.git
+  ref: master
+  sha: 884efdc0997af667f24625e696630e6b1db5a952
+  specs:
+    mstrauss/editfile (0.0.1)
+
+GIT
+  remote: git://github.com/narkisr/puppet-archive.git
+  ref: master
+  sha: 733a42ebd9bf431659dfc2a0f347bca35240d6d0
+  specs:
+    narkisr/archive (0.2.0)
+
+GIT
+  remote: git://github.com/narkisr/puppet-backup.git
+  ref: master
+  sha: 9b299a71ef26ff78381aa13b544f88c6a18421da
+  specs:
+    narkisr/backup (0.1.0)
+
+DEPENDENCIES
+  mstrauss/editfile (>= 0)
+  narkisr/archive (>= 0)
+  narkisr/backup (>= 0)
+  puppetlabs/stdlib (>= 0)
+  zleslie/pkgng (>= 0)
+
