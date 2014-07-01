@@ -5,7 +5,8 @@ node 'syncthing.local' {
   $repos = {
     appliances  => {
       directory => '/home/vagrant/Syncthing',
-      ro        => false
+      ro        => false,
+      nodes     => []
     }
   }
 
