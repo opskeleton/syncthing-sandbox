@@ -15,7 +15,7 @@ GIT
 GIT
   remote: git://github.com/narkisr/puppet-archive.git
   ref: master
-  sha: 733a42ebd9bf431659dfc2a0f347bca35240d6d0
+  sha: 3f4250dbc2b977845643e98ad24f427c24c845b1
   specs:
     narkisr/archive (0.2.0)
 
