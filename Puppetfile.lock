@@ -22,9 +22,9 @@ GIT
 GIT
   remote: git://github.com/narkisr/puppet-backup.git
   ref: master
-  sha: e72baeed80ebe360dc72c55bc006f7cd35dc63bd
+  sha: 5b3c4e5f77e38a120a0a6674e2d9663b08457c98
   specs:
-    narkisr-backup (0.1.0)
+    narkisr-backup (0.1.1)
 
 DEPENDENCIES
   mstrauss-editfile (>= 0)
