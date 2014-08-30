@@ -1,8 +1,8 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
-    puppetlabs/stdlib (4.2.2)
-    zleslie/pkgng (0.2.1)
+    puppetlabs/stdlib (4.3.2)
+    zleslie/pkgng (0.2.3)
       puppetlabs/stdlib (>= 0)
 
 GIT
@@ -22,7 +22,7 @@ GIT
 GIT
   remote: git://github.com/narkisr/puppet-backup.git
   ref: master
-  sha: abaf450f3a7057d8ea9fa793e2c712dcf48a1161
+  sha: 05ee832a99da6a5ec1120564607f371c886a30e8
   specs:
     narkisr/backup (0.1.0)
 
