@@ -1,8 +1,7 @@
 group{ 'puppet': ensure  => present }
 
 $nodes = {
-    '1' => {name => 'foo' , address => 'foo:1234'},
-    '2' => {name => 'bar', address   => 'bar:22000'}
+    'C56YYFN-U7QEMMU-2J3DVM4-RFHHNAT-FH7ATN6-VJSREZY-XKYXPOF-RSKC7QE' => {name => 'foo' , address => 'foo:1234'},
 }
 
 node 'freebsd.local' {
@@ -11,7 +10,9 @@ node 'freebsd.local' {
     appliances  => {
       directory => '/home/vagrant/Syncthing',
       ro        => false,
-      nodes     => ['1', '2']
+      nodes     => [
+        'C56YYFN-U7QEMMU-2J3DVM4-RFHHNAT-FH7ATN6-VJSREZY-XKYXPOF-RSKC7QE',
+      ]
     }
   }
 
@@ -27,7 +28,10 @@ node 'ubuntu.local' {
     appliances  => {
       directory => '/home/vagrant/Syncthing',
       ro        => false,
-      nodes     => ['1', '2']
+      nodes     => [
+        'C56YYFN-U7QEMMU-2J3DVM4-RFHHNAT-FH7ATN6-VJSREZY-XKYXPOF-RSKC7QE',
+      ]
+
     }
   }
 
