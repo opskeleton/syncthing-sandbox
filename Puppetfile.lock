@@ -1,35 +1,35 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
-    puppetlabs/stdlib (4.3.2)
-    zleslie/pkgng (0.2.3)
-      puppetlabs/stdlib (>= 0)
+    puppetlabs-stdlib (4.3.2)
+    zleslie-pkgng (0.2.3)
+      puppetlabs-stdlib (>= 0)
 
 GIT
   remote: git://github.com/mstrauss/puppet-editfile.git
   ref: master
   sha: 884efdc0997af667f24625e696630e6b1db5a952
   specs:
-    mstrauss/editfile (0.0.1)
+    mstrauss-editfile (0.0.1)
 
 GIT
   remote: git://github.com/narkisr/puppet-archive.git
   ref: master
   sha: 3f4250dbc2b977845643e98ad24f427c24c845b1
   specs:
-    narkisr/archive (0.2.0)
+    narkisr-archive (0.2.0)
 
 GIT
   remote: git://github.com/narkisr/puppet-backup.git
   ref: master
-  sha: 05ee832a99da6a5ec1120564607f371c886a30e8
+  sha: e72baeed80ebe360dc72c55bc006f7cd35dc63bd
   specs:
-    narkisr/backup (0.1.0)
+    narkisr-backup (0.1.0)
 
 DEPENDENCIES
-  mstrauss/editfile (>= 0)
-  narkisr/archive (>= 0)
-  narkisr/backup (>= 0)
-  puppetlabs/stdlib (>= 0)
-  zleslie/pkgng (>= 0)
+  mstrauss-editfile (>= 0)
+  narkisr-archive (>= 0)
+  narkisr-backup (>= 0)
+  puppetlabs-stdlib (>= 0)
+  zleslie-pkgng (>= 0)
 
