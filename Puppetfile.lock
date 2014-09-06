@@ -1,8 +1,15 @@
 FORGE
   remote: https://forgeapi.puppetlabs.com
   specs:
+    maestrodev-wget (1.5.2)
     narkisr-git (0.0.1)
+    puppetlabs-apt (1.6.0)
+      puppetlabs-stdlib (>= 2.2.1)
     puppetlabs-stdlib (4.3.2)
+    sensu-sensu (1.1.0)
+      maestrodev-wget (>= 1.4.5)
+      puppetlabs-apt (>= 0.0.1)
+      puppetlabs-stdlib (>= 0.0.1)
     zleslie-pkgng (0.2.3)
       puppetlabs-stdlib (>= 0)
 
@@ -23,18 +30,19 @@ GIT
 GIT
   remote: git://github.com/narkisr/puppet-backup.git
   ref: master
-  sha: c9f122baa14a09fe2fe6e6594f885e792d0d3bd0
+  sha: 86d4089d035358a4abc0b2d5517a6fd43e739279
   specs:
     narkisr-backup (0.1.1)
 
 GIT
   remote: git://github.com/narkisr/puppet-monitoring.git
   ref: master
-  sha: 5d926acafb40d4b0646acb68d671b2579d3f10cd
+  sha: 1912b2a6c167a057050c54a8ae7abff8cb26383b
   specs:
     narkisr-monitoring (0.1.0)
       narkisr-git (>= 0)
       puppetlabs-stdlib (>= 0)
+      sensu-sensu (>= 0)
 
 DEPENDENCIES
   mstrauss-editfile (>= 0)
