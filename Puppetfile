@@ -12,3 +12,6 @@ mod 'narkisr/backup',
 
 mod 'narkisr/archive',
   :git => 'git://github.com/narkisr/puppet-archive.git'
+
+mod 'narkisr/monitoring',
+  :git => 'git://github.com/narkisr/puppet-monitoring.git'
